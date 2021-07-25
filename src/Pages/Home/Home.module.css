@@ -1,0 +1,68 @@
+.timer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.racename {
+  text-align: center;
+}
+
+.tableContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  flex: 1;
+  padding: 0px 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+@media screen and (min-width: 960px) {
+  .tableContainer {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  .btnContainer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .btnContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+
+  .tableShow {
+    display: block;
+  }
+
+  .tableHide {
+    display: none;
+  }
+
+  .tableContainer {
+    max-width: 100%;
+  }
+
+  .btn {
+    font: inherit;
+    background: none;
+    width: 200px;
+  }
+  
+  .btnSelected {
+    background-color: rgb(162, 162, 162);
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+}

@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cell {
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  flex: 1;
+  text-align: center;
+}
+
+.cell:last-child{
+  border-left: 1px solid black;
+  /* border-right: 1px solid black; */
+}
+
+.heading {
+  font-weight: bold;
+}
