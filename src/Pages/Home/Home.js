@@ -13,7 +13,7 @@ const Home = (props) => {
   const [constructorStandings, setConstructorStandings] = useState([]);
   const [driverStandings, setDriverStandings] = useState([]);
   const [showDrivers, setShowDrivers] = useState(true);
-  const [showConstructors, setShowConstructors] = useState(true);
+  const [showConstructors, setShowConstructors] = useState(false);
 
   const date = new Date();
 

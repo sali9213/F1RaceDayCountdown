@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-import logo from './logo.svg';
 import './App.css';
 import Home  from "./Pages/Home/Home";
 import NotFound from "./Pages/NotFound/NotFound";
