@@ -34,7 +34,7 @@ const Home = (props) => {
 
   useEffect(() => {
     axios
-      .get("http://ergast.com/api/f1/current/driverStandings.json?offset=0")
+      .get("https://ergast.com/api/f1/current/driverStandings.json?offset=0")
       .then((res) => {
         setDriverStandings(
           res.data.MRData.StandingsTable.StandingsLists[0].DriverStandings
@@ -44,7 +44,7 @@ const Home = (props) => {
 
   useEffect(() => {
     axios
-      .get("https://ergast.com/api/f1/current/constructorStandings.json")
+      .get("https://ergast.com/api/f1/current/constructorStandings.json?offset=0")
       .then((res) => {
         setConstructorStandings(
           res.data.MRData.StandingsTable.StandingsLists[0].ConstructorStandings
